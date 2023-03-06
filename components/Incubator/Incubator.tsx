@@ -47,7 +47,13 @@ const Incubator = () => {
             </div>
             <div className="text-center md:text-left lg:text-center basis-1/2 space-y-3">
               <div className="hidden md:block lg:hidden">
-                <img src={'/btn.png'} alt="tarif" className="block mx-auto" />
+                <Image
+                  width={300}
+                  height={100}
+                  src={'/btn.png'}
+                  alt="tarif"
+                  className="block mx-auto"
+                />
               </div>
               <h2 className="text-xl lg:text-3xl my-4 font-medium text-skin-purple">
                 {data.heading}
