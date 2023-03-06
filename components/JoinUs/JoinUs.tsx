@@ -26,7 +26,7 @@ const JoinUs = () => {
                 and experience the full potential of your project.{' '}
               </p>
               <div className="flex justify-center">
-                <button className="border-2 mx-auto block md:mx-auto lg:mx-0 transform text-white translate-1s hover:bg-white hover:text-skin-pink w-auto transition duration-500 ease-in-out border-skin-pink bg-skin-pink font-IBM font-medium px-4 py-2 ">
+                <button className="border-2 block mx-auto lg:mx-0 transform text-white translate-1s hover:bg-white hover:text-skin-pink w-auto transition duration-500 ease-in-out border-skin-pink bg-skin-pink font-IBM font-medium px-4 py-2 ">
                   Unleash Your Projects Potential
                 </button>
               </div>

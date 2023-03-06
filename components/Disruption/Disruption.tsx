@@ -35,9 +35,9 @@ const Disruption = () => {
           <div className="basis-1/2 order-first">
             <Image
               src={data.image}
-              className="w-[550px] block"
+              className=" block"
               alt="logo"
-              width={500}
+              width={450}
               height={200}
             />
           </div>

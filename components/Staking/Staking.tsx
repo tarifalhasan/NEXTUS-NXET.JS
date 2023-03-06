@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Staking = () => {
   return (
     <div id="staking">
-      <div className="text-left py-10 md:text-center">
+      <div className="text-left px-5 py-10 md:text-center">
         <h2 className="text-2xl w-full md:w-[80%] lg:w-[50%] mx-auto md:text-[2.2em]  font-medium text-[#44414C] leading-[1.1]">
           Unleash the Potential of your project with AI Nexus Launchpad
         </h2>
