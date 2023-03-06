@@ -16,6 +16,9 @@ module.exports = {
           pink: '#EF4AF0',
         },
       },
+      rotate: {
+        5: '-5deg',
+      },
     },
   },
   plugins: [],
