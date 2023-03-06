@@ -3,7 +3,10 @@ import Image from 'next/image';
 import { IncubatorData } from '@/constant';
 const Incubator = () => {
   return (
-    <div className="main-container py-12 grid grid-cols-1 gap-16 lg:grid-cols-2">
+    <div
+      id="incubator"
+      className="main-container py-12 grid grid-cols-1 gap-16 lg:grid-cols-2"
+    >
       {IncubatorData.map((data, index) => (
         <div className="" key={index}>
           <div className="md:flex gap-7 lg:flex-col">
@@ -12,19 +15,30 @@ const Incubator = () => {
                 index === 1 ? 'md:order-last ' : 'md:order-first '
               } lg:order-first basis-1/2`}
             >
-              <Image
-                src={data.Image}
-                alt="tarif"
-                className="block mx-auto"
-                width={300}
-                height={200}
-              />
+              <div className="relative">
+                <Image
+                  src={data.Image}
+                  alt="tarif"
+                  className="block mx-auto"
+                  width={300}
+                  height={200}
+                />
+                <div className="absolute top-[54%] left-[14%]">
+                  <Image
+                    src={'/btn_group.svg'}
+                    alt="tarif"
+                    className=" mx-auto"
+                    width={340}
+                    height={100}
+                  />
+                </div>
+              </div>
             </div>
             <div className="text-center md:text-left lg:text-center basis-1/2 space-y-3">
               <h2 className="text-xl lg:text-3xl my-4 font-medium text-skin-purple">
                 {data.heading}
               </h2>
-              <p className="font-base font-medium text-[#44414C]">
+              <p className="text-md md:text-base font-medium text-[#44414C]">
                 {data.title}
               </p>
             </div>
