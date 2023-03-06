@@ -12,10 +12,10 @@ const Header = () => {
           </Link>
         </div>
         <nav>
-          <ul className="flex items-center space-x-3">
+          <ul className="flex transition duration-300 ease-in items-center space-x-3">
             {navLink.map((link, i) => (
               <li
-                className="text-base font-PLUS font-normal text-[#44414C]"
+                className="text-lg font-PLUS font-normal text-[#6F6781] hover:text-[#7533FF]"
                 key={i}
               >
                 <Link href={`#${link.href}`}>{link.label}</Link>

@@ -10,7 +10,6 @@ import Staking from '../Staking/Staking';
 const HomePage = () => {
   return (
     <>
-      <Header />
       <HeroSection />
       <Disruption />
       <Launchpad />

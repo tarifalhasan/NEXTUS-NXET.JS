@@ -31,6 +31,13 @@ html {
   .pera {
     @apply text-[#6F6781] font-medium  text-[1em] leading-[160%];
   }
+  .mobile_menu {
+    background: linear-gradient(
+      236.68deg,
+      #ffffff -2.71%,
+      rgba(255, 255, 255, 0) 44.44%
+    );
+  }
   .card-shadow {
     box-shadow: 0px 2.12866px 10.0172px rgba(22, 6, 172, 0.02),
       0px 1.13052px 5.32008px rgba(22, 6, 172, 0.0161557),

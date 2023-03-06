@@ -65,7 +65,7 @@ const Incubator = () => {
                 <span className="block w-full md:w-[80%] lg:w-full text-[14px] text-[#6F6781] font-normal leading-tight">
                   {data.subTitle}
                 </span>
-                <button className="border-2 text-sm transform translate-1s hover:bg-skin-pink hover:text-white w-auto transition duration-500 ease-in-out border-skin-pink bg-white font-IBM font-bold px-8 py-1.5 text-skin-pink">
+                <button className="border-2 text-sm transform translate-1s hover:bg-skin-pink hover:text-white w-auto transition duration-500 ease-in border-skin-pink bg-white font-IBM font-bold px-8 py-1.5 text-skin-pink">
                   {data.buttonText}
                 </button>
               </div>
