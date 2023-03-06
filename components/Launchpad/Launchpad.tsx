@@ -6,7 +6,7 @@ const Launchpad = () => {
     <div id="launchpad">
       <div className="main-container px-5 md:px-16 lg:px-20">
         <h2 className="text-2xl py-10 text-center md:text-[2.2em]  lg:block font-medium text-[#fcfcfc] leading-[1.1]">
-          AI Nexus's Multichain LaunchPad
+          AI Nexus s Multichain LaunchPad
         </h2>
         <div className="grid relative pb-14 place-items-center space-x-4 grid-cols-1 lg:grid-cols-2">
           <div className="space-y-5">
