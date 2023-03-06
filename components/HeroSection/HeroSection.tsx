@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import heroImg from '../../public/img/Component 1.png';
 const HeroSection = () => {
   return (
     <div
@@ -8,11 +8,11 @@ const HeroSection = () => {
     >
       <div className="hero">
         <Image
-          src="/img/hero.png"
+          src={heroImg}
           className="w-full h-full object-cover"
           alt="logo"
-          width={600}
-          height={800}
+          // width={600}
+          // height={800}
         />
       </div>
       <div className="text-center space-y-3 lg:text-justify">

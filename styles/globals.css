@@ -32,6 +32,7 @@ html {
     @apply text-[#6F6781] font-medium  text-[1em] leading-[160%];
   }
   .mobile_menu {
+    @apply  flex justify-between w-;
     background: linear-gradient(
       236.68deg,
       #ffffff -2.71%,

@@ -1,5 +1,7 @@
 import React from 'react';
 import { DisruptionData } from '@/constant';
+import img1 from '../../public/img/Disruption/01.png';
+import img2 from '../../public/img/Disruption/002.png';
 import Image from 'next/image';
 const Disruption = () => {
   return (
@@ -32,14 +34,21 @@ const Disruption = () => {
             </div>
           </div>
 
-          <div className="basis-1/2 order-first">
+          <div className="basis-1/2 relative order-first">
             <Image
               src={data.image}
-              className=" block"
+              className="object-cover"
               alt="logo"
-              width={450}
-              height={200}
+              // width={450}
+              // height={200}
             />
+            <div className={`absolute top-[47%] left-[26%]`}>
+              <Image
+                src={index === 1 ? img1 : img2}
+                alt="nextus"
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       ))}

@@ -19,5 +19,5 @@ export interface Disruption {
   title: string;
   subTitle: string;
   pera: string;
-  image: string;
+  image: any;
 }
