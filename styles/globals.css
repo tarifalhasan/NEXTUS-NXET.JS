@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  a {
+    @apply font-IBM;
+  }
+  p {
+    @apply font-PLUS;
+  }
+  body {
+    @apply bg-[#f2f5f5];
+  }
+}
+
+@layer components {
+  .main-container {
+    @apply max-w-[1440px] px-6  mx-auto lg:px-10;
+    max-width: 1440px;
+  }
+
+  .pera {
+    @apply text-[#6F6781] font-medium  text-[1em] leading-[160%];
+  }
+  .card-shadow {
+    box-shadow: 0px 2.12866px 10.0172px rgba(22, 6, 172, 0.02),
+      0px 1.13052px 5.32008px rgba(22, 6, 172, 0.0161557),
+      0px 0.470434px 2.21381px rgba(22, 6, 172, 0.0112458);
+  }
+}
