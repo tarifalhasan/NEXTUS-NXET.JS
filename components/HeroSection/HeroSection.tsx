@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import heroImg from '../../public/Heroimage.svg';
+import heroImg from '../../public/img/Untitled-4.png';
 const HeroSection = () => {
   return (
     <div
