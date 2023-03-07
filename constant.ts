@@ -92,8 +92,8 @@ export const IncubatorData: Incubator[] = [
     buttonText: 'Join the Next Wave of Innovation',
   },
 ];
-import img1 from './public/img/Component 2.png';
-import img2 from './public/img/Component 3.png';
+import img1 from './public/img/Disruption/img1.png';
+import img2 from './public/img/Disruption/img2.svg';
 export const DisruptionData: Disruption[] = [
   {
     title: 'The AI Nexus Vision of AI-Powered Decentralization',

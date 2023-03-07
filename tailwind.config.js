@@ -19,7 +19,10 @@ module.exports = {
       rotate: {
         5: '-5deg',
       },
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 };

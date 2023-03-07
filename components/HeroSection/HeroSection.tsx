@@ -1,15 +1,15 @@
 import Image from 'next/image';
-import heroImg from '../../public/img/Component 1.png';
+import heroImg from '../../public/Heroimage.svg';
 const HeroSection = () => {
   return (
     <div
       id="innovate"
-      className="grid z-10  gap-4 place-items-center  main-container grid-cols-1 lg:grid-cols-2"
+      className="grid z-10 gap-4 place-items-center  main-container grid-cols-1 lg:grid-cols-2"
     >
-      <div className="hero">
+      <div className="hero  ">
         <Image
           src={heroImg}
-          className="w-full h-full object-cover"
+          className="w-full h-full  	 object-cover "
           alt="logo"
           // width={600}
           // height={800}
@@ -25,8 +25,8 @@ const HeroSection = () => {
             ecosystem providing opportunities and resources for success.
           </p>
           <div>
-            <button className="border-2 transform translate-1s hover:bg-skin-pink hover:text-white w-auto transition duration-500 ease-in-out border-skin-pink bg-white font-IBM font-bold px-4 py-2 text-skin-pink">
-              Join the revolution
+            <button className="border-2 transform translate-1s  hover:bg-skin-pink hover:text-white w-auto transition duration-500 ease-in border-skin-pink bg-white font-IBM font-medium px-4 py-2 text-skin-pink">
+              Invest Now in AI&rsquo;s Future
             </button>
           </div>
         </div>

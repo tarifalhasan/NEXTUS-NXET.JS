@@ -11,7 +11,7 @@ const Layout = ({ children }: LayoutProps) => {
     <>
       <Header />
       <MobileMenu />
-      <main>{children}</main>
+      {children}
       <Footer />
     </>
   );

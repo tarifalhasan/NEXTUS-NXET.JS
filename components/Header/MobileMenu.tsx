@@ -18,7 +18,7 @@ const MobileMenu = () => {
 
   return (
     <header
-      className={`py-3 fixed ${
+      className={`py-3 top-0 fixed ${
         isOpen ? 'bg-white' : 'bg-transparent'
       } w-full z-[99999] lg:hidden `}
     >
