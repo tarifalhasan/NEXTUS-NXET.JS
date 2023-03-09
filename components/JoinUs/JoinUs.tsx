@@ -4,7 +4,7 @@ import React from 'react';
 const JoinUs = () => {
   return (
     <div id="join_us" className="my-5 text-white relative h-full">
-      <div className="main-container">
+      <div className="container">
         <div className="h-full main-container -z-10">
           <div
             className="absolute   inset-0 bg-no-repeat bg-cover bg-right"
@@ -19,14 +19,12 @@ const JoinUs = () => {
         <div className="content py-[10rem] md:py-64 text-center z-50 ">
           <div className="absolute flex justify-center items-center inset-0">
             <div className="space-y-2 md:space-y-4">
-              <h2 className="text-2xl  bg-no-repeattext-center md:text-[2.2em]  lg:block font-medium text-[#fff] leading-[1.1]">
-                Join the AI Nexus community
-              </h2>
-              <p className="text-lg font-IBM font-normal ">
+              <h2 className="text-large">Join the AI Nexus community</h2>
+              <p className="sub-heading text-slate-100 text-center">
                 and experience the full potential of your project.{' '}
               </p>
               <div className="flex justify-center">
-                <button className="border-2 block mx-auto lg:mx-0 transform text-white translate-1s hover:bg-white hover:text-skin-pink w-auto transition duration-500 ease-in-out border-skin-pink bg-skin-pink font-IBM font-medium px-4 py-2 ">
+                <button className="btn-secondary">
                   Unleash Your Projects Potential
                 </button>
               </div>

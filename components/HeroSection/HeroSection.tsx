@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div
       id="innovate"
-      className="grid z-10 gap-4 place-items-center  main-container grid-cols-1 lg:grid-cols-2"
+      className="grid z-10 gap-4 place-items-center  container grid-cols-1 lg:grid-cols-2"
     >
       <div className="hero  ">
         <Image
@@ -16,7 +16,7 @@ const HeroSection = () => {
         />
       </div>
       <div className="text-center space-y-3 lg:text-justify">
-        <h2 className="text-2xl md:text-[2.2em] md:hidden lg:block font-medium text-[#44414C] leading-[1.1]">
+        <h2 className="heading">
           The launchpad for the future of AI crypto projects
         </h2>
         <div className="lg:pl-10 flex flex-col space-y-3 ">

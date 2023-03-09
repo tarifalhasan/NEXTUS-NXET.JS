@@ -6,7 +6,7 @@ export interface Staking {
   heading: string;
   title: string;
   subHeading: string;
-  icon: string;
+  icon: any;
 }
 export interface Incubator {
   heading: string;

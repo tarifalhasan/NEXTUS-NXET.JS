@@ -23,6 +23,16 @@ module.exports = {
         '4/3': '4 / 3',
       },
     },
+    container: {
+      center: true,
+
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '1rem',
+        xl: '1rem',
+        '2xl': '6rem',
+      },
+    },
   },
-  plugins: [require('@tailwindcss/aspect-ratio')],
 };

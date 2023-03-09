@@ -22,6 +22,12 @@ export const navLink: Navlink[] = [
   },
 ];
 
+import icon1 from './public/icons/1.svg';
+import icon2 from './public/icons/2.svg';
+import icon3 from './public/icons/3.svg';
+import icon4 from './public/icons/4.svg';
+import icon5 from './public/icons/5.svg';
+import icon6 from './public/icons/6.svg';
 export const StakingData: Staking[] = [
   {
     heading: 'AI LaunchPad',
@@ -29,7 +35,7 @@ export const StakingData: Staking[] = [
       'Our AI-powered launchpad is designed to simplify the launch process and provide a seamless user experience. ',
     subHeading:
       'With intuitive interface and advanced features, launching on AI Nexus is the easiest and most efficient way to get started.',
-    icon: '/icons/1.svg',
+    icon: icon1,
   },
   {
     heading: 'NexusLock',
@@ -37,7 +43,7 @@ export const StakingData: Staking[] = [
       'Enhance your token security and distribution with NexusLock, our advanced token locker and liquidity locker solution. ',
     subHeading:
       'NexusLock provides a secure and efficient method for managing and distributing your tokens.',
-    icon: '/icons/2.svg',
+    icon: icon2,
   },
   {
     heading: 'Airdrop Tool',
@@ -45,7 +51,7 @@ export const StakingData: Staking[] = [
       'Our AI-powered launchpad is designed to simplify the launch process and provide a seamless user experience.  ',
     subHeading:
       'With intuitive interface and advanced features, launching on AI Nexus is the easiest and most efficient way to get started.',
-    icon: '/icons/3.svg',
+    icon: icon3,
   },
   {
     heading: 'Buy Crypto with Fiat',
@@ -53,7 +59,7 @@ export const StakingData: Staking[] = [
       'Lower the barriers to entry for investors with our Buy Crypto with Fiat tool. ',
     subHeading:
       'This cutting-edge solution makes it easier than ever to acquire cryptocurrencies, boosting investment in your project.',
-    icon: '/icons/4.svg',
+    icon: icon4,
   },
   {
     heading: 'Multisender',
@@ -61,7 +67,7 @@ export const StakingData: Staking[] = [
       'The Multisender tool streamlines token distribution, saving you time and resources. ',
     subHeading:
       'With just a few clicks, you can efficiently distribute tokens to your desired recipients.',
-    icon: '/icons/5.svg',
+    icon: icon5,
   },
   {
     heading: 'KYC & Auditing',
@@ -69,7 +75,7 @@ export const StakingData: Staking[] = [
       'Ensure compliance and transparency with our comprehensive KYC & Auditing solution. ',
     subHeading:
       'Protect your project and investors with our robust auditing and compliance measures.',
-    icon: '/icons/6.svg',
+    icon: icon6,
   },
 ];
 export const IncubatorData: Incubator[] = [
