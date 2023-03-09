@@ -98,21 +98,21 @@ export const IncubatorData: Incubator[] = [
     buttonText: 'Join the Next Wave of Innovation',
   },
 ];
-import img1 from './public/img/Disruption/img1.png';
-import img2 from './public/img/Disruption/img2.svg';
-export const DisruptionData: Disruption[] = [
-  {
-    title: 'The AI Nexus Vision of AI-Powered Decentralization',
-    subTitle:
-      "<p>Crypto & AI merge presents immense potential to disrupt various industries. AI Nexus supports <span class='text-skin-purple font-medium' >innovative projects exploring</span> the benefits of blockchain's decentralization & AI's advanced capabilities for secure & efficient systems. </p>",
-    pera: 'Our goal: advancing decentralized autonomous systems & creating a more efficient, secure, & equitable world.',
-    image: img1,
-  },
-  {
-    title: "AI Nexus',s LaunchPad",
-    subTitle:
-      '<p>At AI Nexus, our aim is to provide a launchpad for innovative AI-focused crypto projects. We aim to support the development and growth of these projects, leveraging the potential of both cryptocurrency and AI tech.  </p>',
-    pera: 'Our goal is to facilitate the creation of secure, efficient, and decentralized systems powered by advanced AI capabilities, leading to a more democratic and transparent approach to problem-solving.',
-    image: img2,
-  },
-];
+// import img1 from './public/img/Disruption/img1.png';
+// import img2 from './public/img/Disruption/img2.svg';
+// export const DisruptionData: Disruption[] = [
+//   {
+//     title: 'The AI Nexus Vision of AI-Powered Decentralization',
+//     subTitle:
+//       "<p>Crypto & AI merge presents immense potential to disrupt various industries. AI Nexus supports <span class='text-skin-purple font-medium' >innovative projects exploring</span> the benefits of blockchain's decentralization & AI's advanced capabilities for secure & efficient systems. </p>",
+//     pera: 'Our goal: advancing decentralized autonomous systems & creating a more efficient, secure, & equitable world.',
+//     image: img1,
+//   },
+//   {
+//     title: "AI Nexus',s LaunchPad",
+//     subTitle:
+//       '<p>At AI Nexus, our aim is to provide a launchpad for innovative AI-focused crypto projects. We aim to support the development and growth of these projects, leveraging the potential of both cryptocurrency and AI tech.  </p>',
+//     pera: 'Our goal is to facilitate the creation of secure, efficient, and decentralized systems powered by advanced AI capabilities, leading to a more democratic and transparent approach to problem-solving.',
+//     image: img2,
+//   },
+// ];
