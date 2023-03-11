@@ -1,7 +1,7 @@
 import React from 'react';
 
-import img1 from '../../public/img/Component 2.png';
-import img2 from '../../public/img/Component 3.png';
+import img1 from '../../public/img/Disruption/img1.png';
+import img2 from '../../public/img/Disruption/img2.png';
 import Image from 'next/image';
 const Disruption = () => {
   return (
