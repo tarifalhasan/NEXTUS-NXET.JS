@@ -19,6 +19,9 @@ html {
   body {
     @apply bg-[#f2f5f5] text-[1em];
   }
+  html {
+    @apply scroll-smooth;
+  }
 }
 
 @layer components {
