@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import heroImg from '../../img/hero.png';
 const HeroSection = () => {
   return (
     <div
@@ -7,13 +8,7 @@ const HeroSection = () => {
       className="grid z-10 gap-4 place-items-center  container grid-cols-1 lg:grid-cols-2"
     >
       <div className="hero  ">
-        <Image
-          src={'/img/Untitled-4.png'}
-          width={600}
-          height={800}
-          className=" "
-          alt="logo"
-        />
+        <Image src={heroImg} className=" " alt="logo" />
       </div>
       <div className="text-center space-y-3 lg:text-justify">
         <h2 className="heading">

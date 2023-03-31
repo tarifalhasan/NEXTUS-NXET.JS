@@ -1,7 +1,8 @@
 import React from 'react';
 
-import img1 from '../../public/img/Disruption/img1.png';
-import img2 from '../../public/img/Disruption/img2.png';
+import img2 from '../../img/img3.svg';
+
+import img1 from '../../img/hero2.png';
 import Image from 'next/image';
 const Disruption = () => {
   return (
@@ -36,16 +37,16 @@ const Disruption = () => {
           </div>
         </div>
         <div className="basis-1/2 relative ">
-          <Image src={img1} className="object-cover w-full" alt="logo" />
+          <div>
+            <Image src={img1} className="" alt="logo" />
+          </div>
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center ">
         <div className="basis-1/2 relative">
-          <Image
-            src={img2}
-            className="object-cover object-center w-fit "
-            alt="logo"
-          />
+          <div>
+            <Image src={img2} className=" " alt="logo" />
+          </div>
         </div>
         <div className={`basis-1/2 space-y-3 lg:text-justify`}>
           <div className="lg:pl-10  space-y-5 ">
