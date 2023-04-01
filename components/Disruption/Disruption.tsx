@@ -19,8 +19,8 @@ const Disruption = () => {
               At Xcel Pad, we believe that DeFi and innovation merge to present
               immense potential to disrupt various industries. We are dedicated
               to supporting innovative projects that explore the benefits of
-              blockchain's decentralization and advanced capabilities for secure
-              and efficient systems.
+              blockchain&apos;s decentralization and advanced capabilities for
+              secure and efficient systems.
             </h4>
 
             <div className="ml-0 lg:ml-[55px] space-y-4 lg:mt-[1.6rem]">

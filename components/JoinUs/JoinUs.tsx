@@ -20,7 +20,7 @@ const JoinUs = () => {
             </p>
             <div className="flex justify-center">
               <button className="btn-secondary">
-                Unleash Your Project's Potential
+                Unleash Your Project&apos;s Potential
               </button>
             </div>
             <p className="text-lg text-[#C4BCD5] font-PLUS w-full md:w-[50%] mx-auto font-light text-center pt-2 md:pt-11">

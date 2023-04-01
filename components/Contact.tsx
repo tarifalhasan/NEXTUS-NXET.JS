@@ -68,8 +68,8 @@ const Contact = () => {
             is here to help.
           </p>
           <p className="text-xs font-PLUS font-normal text-[#44414C]">
-            Contact us through our support channels, and we'll get back to you
-            as soon as possible.
+            Contact us through our support channels, and we&apos;ll get back to
+            you as soon as possible.
           </p>
           <button className="btn-primary">Contact Us</button>
         </div>
