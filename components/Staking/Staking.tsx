@@ -6,11 +6,12 @@ const Staking = () => {
     <div id="staking">
       <div className="lg:max-w-[60%] mx-auto px-5 py-10 md:text-center">
         <h2 className="heading text-center ">
-          Unleash the Potential of your project with AI Nexus Launchpad
+          Empower Your Project <br className="hidden lg:block" /> with Xcel Pad
         </h2>
         <p className="sub-heading text-center ">
-          Invest in innovation today and shape the future of AI. Expert-driven
-          ecosystem providing opportunities and resources for success.
+          Invest in innovation today and shape the future of DeFi with our
+          expert-driven ecosystem, providing opportunities and resources for
+          success.
         </p>
       </div>
       <div className="grid container place-items-center gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

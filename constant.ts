@@ -30,27 +30,27 @@ import icon5 from './public/icons/5.svg';
 import icon6 from './public/icons/6.svg';
 export const StakingData: Staking[] = [
   {
-    heading: 'AI LaunchPad',
+    heading: 'DeFi LaunchPad',
     title:
-      'Our AI-powered launchpad is designed to simplify the launch process and provide a seamless user experience. ',
+      'Our DeFi-powered launchpad is designed to simplify the launch process and provide a seamless user experience. ',
     subHeading:
-      'With intuitive interface and advanced features, launching on AI Nexus is the easiest and most efficient way to get started.',
+      'With an intuitive interface & advanced features, launching on Xcel Pad is the easiest and most efficient way to get started.',
     icon: icon1,
   },
   {
-    heading: 'NexusLock',
+    heading: 'XL Lock',
     title:
-      'Enhance your token security and distribution with NexusLock, our advanced token locker and liquidity locker solution. ',
+      'Enhance your token security and distribution with XL Lock, our advanced token locker and liquidity locker solution. ',
     subHeading:
-      'NexusLock provides a secure and efficient method for managing and distributing your tokens.',
+      'XL Lock provides a secure and efficient method for managing and distributing your tokens.',
     icon: icon2,
   },
   {
     heading: 'Airdrop Tool',
     title:
-      'Our AI-powered launchpad is designed to simplify the launch process and provide a seamless user experience.  ',
+      'Easily distribute tokens to your community using our user-friendly Airdrop Tool.',
     subHeading:
-      'With intuitive interface and advanced features, launching on AI Nexus is the easiest and most efficient way to get started.',
+      'With intuitive interface and advanced features, launching on XL Lock is the easiest and most efficient way to get started.',
     icon: icon3,
   },
   {
@@ -58,13 +58,13 @@ export const StakingData: Staking[] = [
     title:
       'Lower the barriers to entry for investors with our Buy Crypto with Fiat tool. ',
     subHeading:
-      'This cutting-edge solution makes it easier than ever to acquire cryptocurrencies, boosting investment in your project.',
+      'Making it easier than ever to acquire cryptocurrencies and boost investment in your project.',
     icon: icon4,
   },
   {
     heading: 'Multisender',
     title:
-      'The Multisender tool streamlines token distribution, saving you time and resources. ',
+      'The XL Multisender tool streamlines token distribution, saving you time and resources. ',
     subHeading:
       'With just a few clicks, you can efficiently distribute tokens to your desired recipients.',
     icon: icon5,

@@ -2,7 +2,7 @@ import React from 'react';
 
 import img2 from '../../img/img3.svg';
 
-import img1 from '../../img/hero2.png';
+import img1 from '../../img/aiImg1.svg';
 import Image from 'next/image';
 const Disruption = () => {
   return (
@@ -13,16 +13,14 @@ const Disruption = () => {
         >
           <div className="lg:pl-10 space-y-5 ">
             <h2 className="heading">
-              The AI Nexus Vision of AI-Powered Decentralization
+              The Xcel Pad Vision of DeFi Powered Innovation
             </h2>
             <h4 className="sub-heading ">
-              Crypto & AI merge presents immense potential to disrupt various
-              industries. AI Nexus supports
-              <span className="text-skin-purple font-medium">
-                innovative projects exploring
-              </span>
-              the benefits of blockchain&rsquo;s decentralization & AI&rsquo;s
-              advanced capabilities for secure & efficient systems.
+              At Xcel Pad, we believe that DeFi and innovation merge to present
+              immense potential to disrupt various industries. We are dedicated
+              to supporting innovative projects that explore the benefits of
+              blockchain's decentralization and advanced capabilities for secure
+              and efficient systems.
             </h4>
 
             <div className="ml-0 lg:ml-[55px] space-y-4 lg:mt-[1.6rem]">
@@ -30,8 +28,8 @@ const Disruption = () => {
                 Join the AI Nexus Revolution
               </button>
               <span className="text-small block">
-                Our goal: advancing decentralized autonomous systems & creating
-                a more efficient, secure, & equitable world.
+                Our goal is to advance decentralized autonomous systems and
+                create a more efficient, secure, and equitable world.
               </span>
             </div>
           </div>

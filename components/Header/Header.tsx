@@ -16,7 +16,7 @@ const Header = () => {
           <ul className="flex transition duration-300 ease-in items-center gap-x-9">
             {navLink.map((link, i) => (
               <li
-                className="text-lg font-PLUS font-normal text-[#6F6781] hover:text-[#7533FF]"
+                className="text-lg font-PLUS font-normal text-[#6F6781] hover:text-[#7533FF] hover:underline"
                 key={i}
               >
                 <Link href={`#${link.href}`}>{link.label}</Link>
