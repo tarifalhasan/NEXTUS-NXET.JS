@@ -42,7 +42,7 @@ html {
     @apply border-2 text-[1em] transform w-full md:w-auto  hover:bg-skin-pink hover:text-white  transition duration-700 ease-in-out border-skin-pink bg-white font-IBM font-medium px-4 py-2 text-skin-pink;
   }
   .btn-secondary {
-    @apply border-2 block md:mx-auto lg:mx-0 transform text-white  hover:bg-white hover:text-skin-pink w-auto transition duration-700  ease-in-out border-skin-pink bg-skin-pink font-IBM font-medium px-4 py-2;
+    @apply border-2 block md:mx-auto lg:mx-0 transform text-white hover:border-[#FC80FF] hover:bg-[#fafafa] hover:text-[#FC80FF] w-auto transition duration-700  ease-in-out border-skin-pink bg-skin-pink font-IBM font-medium px-4 py-2;
   }
   .text-large {
     @apply text-[1.5em] text-[#FFFFFF] font-IBM font-medium text-center tracking-tight md:text-[2.5em] lg:text-[3.5em];
@@ -80,6 +80,22 @@ html {
       0px 1.13052px 5.32008px rgba(22, 6, 172, 0.0161557),
       0px 0.470434px 2.21381px rgba(22, 6, 172, 0.0112458);
   }
+  .card_shadow_sm {
+    background: linear-gradient(
+      -285.68deg,
+      #ffffff -2.71%,
+      rgba(255, 255, 255, 0) 44.44%
+    );
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  }
+  .card_shadow_md {
+    background: linear-gradient(
+      236.68deg,
+      #ffffff -2.71%,
+      rgba(255, 255, 255, 0) 44.44%
+    );
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  }
   .hover_link {
     background: linear-gradient(341.87deg, #50e6fe 10.77%, #733bff 99.87%),
       #ffffff;
@@ -112,4 +128,13 @@ html {
     --tw-text-opacity: 1;
     color: linear-gradient(341.87deg, #50e6fe 10.77%, #733bff 99.87%);
   }
+}
+.my-svg {
+  transition: all 0.3s ease-in-out;
+}
+.my-svg:hover path:first-child {
+  fill: blue;
+}
+.my-svg:hover path:last-child {
+  fill: white;
 }

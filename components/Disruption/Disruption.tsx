@@ -4,12 +4,13 @@ import img2 from '../../img/img3.svg';
 
 import img1 from '../../img/aiImg1.svg';
 import Image from 'next/image';
+import { ArrowDown } from '../Icon';
 const Disruption = () => {
   return (
     <div className="container  py-10" id="disruption">
-      <div className="flex flex-col gap-7 md:flex-row items-center ">
+      <div className="flex p-5 card_shadow_sm flex-col gap-7 md:flex-row items-center ">
         <div
-          className={`basis-1/2 order-last  md:order-first space-y-3 lg:text-justify`}
+          className={`basis-1/2  order-last  md:order-first space-y-3 lg:text-justify`}
         >
           <div className="lg:pl-10 space-y-5 ">
             <h2 className="heading">
@@ -23,7 +24,7 @@ const Disruption = () => {
               secure and efficient systems.
             </h4>
 
-            <div className="ml-0 lg:ml-[55px] space-y-4 lg:mt-[1.6rem]">
+            <div className="ml-0 lg:ml-[55px] hidden lg:block space-y-4 lg:mt-[1.6rem]">
               <button className="btn-primary">
                 Join the AI Nexus Revolution
               </button>
@@ -34,16 +35,45 @@ const Disruption = () => {
             </div>
           </div>
         </div>
-        <div className="basis-1/2 relative ">
+        <div className=" order-last lg:order-first basis-1/2 p-1 lg:p-10 relative ">
           <div>
             <Image src={img1} className="" alt="logo" />
+
+            <div className="ml-0 pb-10   lg:hidden space-y-4 lg:mt-[1.6rem]">
+              <button className="btn-primary w-full">
+                Join the AI Nexus Revolution
+              </button>
+              <span className="text-small block">
+                Our goal is to advance decentralized autonomous systems and
+                create a more efficient, secure, and equitable world.
+              </span>
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row items-center ">
-        <div className="basis-1/2 relative">
+      <button
+        onClick={() =>
+          window.scrollTo({
+            top: window.innerHeight,
+            behavior: 'smooth',
+          })
+        }
+        className="my-16 block mx-auto"
+      >
+        <ArrowDown />
+      </button>
+
+      <div className="flex p-5 card_shadow_md flex-col md:flex-row items-center ">
+        <div className="basis-1/2 order-last  relative">
           <div>
             <Image src={img2} className=" " alt="logo" />
+          </div>
+          <div className="ml-0  lg:hidden lg:ml-[55px] lg:mt-[1.6rem]">
+            <span className="text-small">
+              Our goal is to facilitate the creation of secure, efficient, and
+              decentralized systems powered by advanced AI capabilities, leading
+              to a more democratic and transparent approach to problem-solving.
+            </span>
           </div>
         </div>
         <div className={`basis-1/2 space-y-3 lg:text-justify`}>
@@ -56,7 +86,7 @@ const Disruption = () => {
               cryptocurrency and AI tech.
             </h4>
 
-            <div className="ml-0 lg:ml-[55px] lg:mt-[1.6rem]">
+            <div className="ml-0 hidden lg:block lg:ml-[55px] lg:mt-[1.6rem]">
               <span className="text-small">
                 Our goal is to facilitate the creation of secure, efficient, and
                 decentralized systems powered by advanced AI capabilities,

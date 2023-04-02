@@ -16,7 +16,7 @@ const Launchpad = () => {
               to other EVM chains like Optimism, Fantom, Avalanche, Polygon, and
               Harmony.
             </p>
-            <p className="sub-heading text-slate-100">
+            <p className="sub-heading hidden lg:block text-white">
               We are committed to providing seamless interoperability and
               accessibility within the Xcel ecosystem. As the decentralized
               landscape continues to evolve, our technical team is dedicated to
@@ -26,8 +26,15 @@ const Launchpad = () => {
             <div className=" lg:hidden ">
               <Image src={bg} alt="staking nextus" />
             </div>
+            <p className="sub-heading  font-normal font-PLUS lg:hidden text-white">
+              We are committed to providing seamless interoperability and
+              accessibility within the Xcel ecosystem. As the decentralized
+              landscape continues to evolve, our technical team is dedicated to
+              staying ahead of the curve and providing our users with the latest
+              and most innovative technologies.
+            </p>
             <div className="text-left md:text-center lg:text-left  ">
-              <button className="btn-secondary">
+              <button className="btn-secondary w-full lg:w-auto">
                 Experience Seamless Interoperability
               </button>
               <span className="text-small mt-5">

@@ -10,16 +10,15 @@ const JoinUs = () => {
     >
       <div className="content relative py-[10rem]  text-center z-50 ">
         <div className=" flex justify-center items-center">
-          <div className="space-y-2 md:space-y-6">
-            <h2 className="text-large">
+          <div className=" px-2 space-y-6">
+            <h2 className="text-3xl font-medium font-IBM lg:text-[56px]">
               Become a Part of the Xcel Pad Community
             </h2>
-            <p className="text-2xl font-normal font-IBM text-[#F2F5F5] text-center">
-              Join the Xcel Pad community and experience the full potential of
-              your project.
+            <p className="text-base lg:text-2xl font-normal font-IBM text-[#F2F5F5] text-center">
+              and experience the full potential of your project.
             </p>
             <div className="flex justify-center">
-              <button className="btn-secondary">
+              <button className="btn-secondary w-full lg:w-auto">
                 Unleash Your Project&apos;s Potential
               </button>
             </div>

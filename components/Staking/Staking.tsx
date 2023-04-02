@@ -4,11 +4,11 @@ import Image from 'next/image';
 const Staking = () => {
   return (
     <div id="staking">
-      <div className="lg:max-w-[60%] mx-auto px-5 py-10 md:text-center">
+      <div className="lg:max-w-[60%] space-y-4 mx-auto px-5 py-10 md:text-center">
         <h2 className="heading text-center ">
           Empower Your Project <br className="hidden lg:block" /> with Xcel Pad
         </h2>
-        <p className="sub-heading text-center ">
+        <p className="sub-heading lg:w-[66%] mx-auto text-center ">
           Invest in innovation today and shape the future of DeFi with our
           expert-driven ecosystem, providing opportunities and resources for
           success.
