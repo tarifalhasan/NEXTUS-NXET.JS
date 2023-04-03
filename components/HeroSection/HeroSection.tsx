@@ -24,7 +24,7 @@ const HeroSection = () => {
             </p>
             <div>
               <button className="border-2 transform translate-1s  hover:bg-skin-pink hover:text-white lg:w-auto transition duration-500 w-full ease-in border-skin-pink bg-white font-IBM font-medium px-4 py-2 text-skin-pink">
-                Invest Now in AI&rsquo;s Future
+                Invest Now in the Future of DeFi
               </button>
             </div>
           </div>

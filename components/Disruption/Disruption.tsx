@@ -26,7 +26,7 @@ const Disruption = () => {
 
             <div className="ml-0 lg:ml-[55px] hidden lg:block space-y-4 lg:mt-[1.6rem]">
               <button className="btn-primary">
-                Join the AI Nexus Revolution
+                Join the Xcel Pad Revolution
               </button>
               <span className="text-small block">
                 Our goal is to advance decentralized autonomous systems and
@@ -41,7 +41,7 @@ const Disruption = () => {
 
             <div className="ml-0 pb-10   lg:hidden space-y-4 lg:mt-[1.6rem]">
               <button className="btn-primary w-full">
-                Join the AI Nexus Revolution
+                Join the Xcel Pad Revolution
               </button>
               <span className="text-small block">
                 Our goal is to advance decentralized autonomous systems and
@@ -78,20 +78,19 @@ const Disruption = () => {
         </div>
         <div className={`basis-1/2 space-y-3 lg:text-justify`}>
           <div className="lg:pl-10  space-y-5 ">
-            <h2 className="heading">AI Nexus&rsquo;s LaunchPad</h2>
+            <h2 className="heading">Empowering Innovation</h2>
             <h4 className="sub-heading ">
-              At AI Nexus, our aim is to provide a launchpad for innovative
-              AI-focused crypto projects. We aim to support the development and
-              growth of these projects, leveraging the potential of both
-              cryptocurrency and AI tech.
+              Our aim is to provide a launchpad for innovative DeFi-focused
+              projects, supporting their development and growth while leveraging
+              the potential of both DeFi and innovative tech.
             </h4>
 
             <div className="ml-0 hidden lg:block lg:ml-[55px] lg:mt-[1.6rem]">
               <span className="text-small">
-                Our goal is to facilitate the creation of secure, efficient, and
-                decentralized systems powered by advanced AI capabilities,
-                leading to a more democratic and transparent approach to
-                problem-solving.
+                We strive to make it easier for people to build secure,
+                efficient, and decentralized systems powered by new
+                technologies, leading to a more democratic and open way of
+                solving problems.
               </span>
             </div>
           </div>
