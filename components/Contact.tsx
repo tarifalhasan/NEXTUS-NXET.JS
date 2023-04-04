@@ -1,6 +1,7 @@
 import React from 'react';
 import { Discord, GitBook, Medium, Telegram, Twitter } from './Icon';
-import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
+import { FaTelegramPlane, FaTwitter, FaDiscord } from 'react-icons/fa';
+import { SiMedium, SiGitbook } from 'react-icons/si';
 const Contact = () => {
   return (
     <section className="container gap-5 grid grid-cols-1 lg:grid-cols-2">
@@ -15,46 +16,83 @@ const Contact = () => {
             a part of the conversation.
           </p>
           <div className="flex mt-3 items-center flex-wrap lg:flex-nowrap	 justify-center gap-6">
-            <a
-              className=" flex justify-center items-center"
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Telegram />
-            </a>
-            <a
-              className=" flex justify-center items-center"
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Twitter />
-            </a>
-            <a
-              className=" flex justify-center items-center"
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Discord />
-            </a>
-            <a
-              className=" flex justify-center items-center"
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Medium />
-            </a>
-            <a
-              className=" flex justify-center items-center"
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GitBook />
-            </a>
+            <div>
+              <a
+                className=" flex justify-center items-center"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="social_link text-[#667AFF] flex justify-center items-center">
+                  <FaTelegramPlane size={32} />
+                </div>
+              </a>
+              <p className="text-base text-center pt-2 font-normal text-[#6F6781]">
+                Telegram
+              </p>
+            </div>
+
+            <div>
+              <a
+                className=" flex justify-center items-center"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="social_link text-[#667AFF] flex justify-center items-center">
+                  <FaTwitter size={32} />
+                </div>
+              </a>
+              <p className="text-base text-center pt-2 font-normal text-[#6F6781]">
+                Twitter
+              </p>
+            </div>
+            <div>
+              <a
+                className=" flex justify-center items-center"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="social_link text-[#667AFF] flex justify-center items-center">
+                  <FaDiscord size={32} />
+                </div>
+              </a>
+              <p className="text-base text-center pt-2 font-normal text-[#6F6781]">
+                Discord
+              </p>
+            </div>
+            <div>
+              <a
+                className=" flex justify-center items-center"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="social_link text-[#667AFF] flex justify-center items-center">
+                  <SiMedium size={32} />
+                </div>
+              </a>
+              <p className="text-base text-center pt-2 font-normal text-[#6F6781]">
+                Medium
+              </p>
+            </div>
+
+            <div>
+              <a
+                className=" flex justify-center items-center"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="social_link text-[#667AFF] flex justify-center items-center">
+                  <SiGitbook size={32} />
+                </div>
+              </a>
+              <p className="text-base text-center pt-2 font-normal text-[#6F6781]">
+                GitBook
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -71,7 +109,9 @@ const Contact = () => {
             Contact us through our support channels, and we&apos;ll get back to
             you as soon as possible.
           </p>
-          <button className="btn-primary">Contact Us</button>
+          <button className="py-2  font-medium px-7 btn-primary ">
+            Contact Us
+          </button>
         </div>
       </div>
     </section>

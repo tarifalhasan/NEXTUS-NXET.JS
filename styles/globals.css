@@ -30,7 +30,7 @@ html {
     @apply max-w-[1440px] px-6  mx-auto lg:px-10;
   }
   .heading {
-    @apply text-[1.5em] text-center lg:text-left md:text-[3em] leading-[110%] text-[#44414C] font-IBM font-medium tracking-tighter;
+    @apply text-[1.5em] text-center lg:text-left md:text-[2.7em] leading-[110%] text-[#44414C] font-IBM font-medium tracking-tighter;
   }
   .sub-heading {
     @apply font-PLUS text-center lg:text-left text-[#6F6781] leading-[150%] font-medium text-[0.875em] md:text-[1em];
@@ -38,11 +38,12 @@ html {
   .text-small {
     @apply text-[1.1em] font-PLUS font-normal block text-center md:text-left leading-[150%] text-[#6F6781];
   }
+
   .btn-primary {
-    @apply border-2 text-[1em] transform w-full md:w-auto  hover:bg-skin-pink hover:text-white  transition duration-700 ease-in-out border-skin-pink bg-white font-IBM font-medium px-4 py-2 text-skin-pink;
+    @apply border-2 min-h-[54px] text-[1em] transform w-full md:w-auto  hover:bg-skin-pink hover:text-white  transition duration-700 ease-in-out border-skin-pink bg-white font-IBM font-medium px-4 py-3 text-skin-pink;
   }
   .btn-secondary {
-    @apply border-2 block md:mx-auto lg:mx-0 transform text-white hover:border-[#FC80FF] hover:bg-[#fafafa] hover:text-[#FC80FF] w-auto transition duration-700  ease-in-out border-skin-pink bg-skin-pink font-IBM font-medium px-4 py-2;
+    @apply border-2 block min-h-[54px] md:mx-auto lg:mx-0 transform text-white hover:border-[#FC80FF] hover:bg-[#fafafa] hover:text-[#FC80FF] w-auto transition duration-700  ease-in-out border-skin-pink bg-skin-pink font-IBM font-medium px-4 py-3;
   }
   .text-large {
     @apply text-[1.5em] text-[#FFFFFF] font-IBM font-medium text-center tracking-tight md:text-[2.5em] lg:text-[3.5em];
@@ -73,6 +74,32 @@ html {
       0px 1.13052px 5.32008px rgba(22, 6, 172, 0.0161557),
       0px 0.470434px 2.21381px rgba(22, 6, 172, 0.0112458);
   }
+  #innovate {
+    background: linear-gradient(
+      236.68deg,
+      #ffffff -2.71%,
+      rgba(255, 255, 255, 0) 44.44%
+    );
+  }
+  .social_link {
+    -webkit-clip-path: polygon(
+      50% 0%,
+      100% 25%,
+      100% 76%,
+      48% 100%,
+      0% 75%,
+      0% 25%
+    );
+    clip-path: polygon(50% 0%, 100% 25%, 100% 76%, 48% 100%, 0% 75%, 0% 25%);
+    @apply bg-white w-[70px] hover:text-white h-[75px];
+
+    box-shadow: 0px 1.19737px 5.6347px rgba(22, 6, 172, 0.02),
+      0px 0.635916px 2.99255px rgba(22, 6, 172, 0.0161557),
+      0px 0.264619px 1.24527px rgba(22, 6, 172, 0.0112458);
+  }
+  .social_link:hover {
+    background: linear-gradient(341.87deg, #50e6fe 10.77%, #733bff 99.87%);
+  }
 }
 @layer utilities {
   .card-shadow {
@@ -80,6 +107,7 @@ html {
       0px 1.13052px 5.32008px rgba(22, 6, 172, 0.0161557),
       0px 0.470434px 2.21381px rgba(22, 6, 172, 0.0112458);
   }
+
   .card_shadow_sm {
     background: linear-gradient(
       -285.68deg,
@@ -127,6 +155,13 @@ html {
   .tarif {
     --tw-text-opacity: 1;
     color: linear-gradient(341.87deg, #50e6fe 10.77%, #733bff 99.87%);
+  }
+  .shadow_card {
+    background: linear-gradient(180deg, #f2f5f5 0%, #f9fafa 100%);
+    /* small shadow */
+
+    /* box-shadow: 0px 2.12866px 10.0172px rgba(22, 6, 172, 0.02),
+      0px 0.470434px 2.21381px rgba(22, 6, 172, 0.0112458); */
   }
 }
 .my-svg {

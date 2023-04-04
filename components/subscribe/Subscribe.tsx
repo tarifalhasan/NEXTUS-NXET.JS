@@ -22,6 +22,7 @@ const Subscribe = () => {
             <form className="flex flex-col lg:flex-row gap-y-2 justify-center">
               <input
                 type="email"
+                placeholder="enter your email"
                 required
                 className="text-slate-800 py-2 w-full lg:w-[320px] px-6 text-lg focus:outline-none "
               />

@@ -6,11 +6,11 @@ const Incubator = () => {
   return (
     <section
       id="incubator"
-      className="grid   container gap-28 grid-cols-1 lg:grid-cols-2"
+      className="grid   container gap-28 lg:gap-12 grid-cols-1 lg:grid-cols-2"
     >
       <div className="relative  ">
         <Image className="block   mx-auto" src={img2} alt="tarif" />
-        <div className=" pb-8 lg:px-5 h-auto lg:h-[400px]  lg:shadow-lg text-center space-y-5">
+        <div className=" min-h-[420px] xl:pb-[3.5rem] lg:px-5 h-auto   shadow_card text-center space-y-5">
           <span className="text-lg text-[#6F6781]">With</span>
           <h2 className="text-4xl text-skin-purple font-IBM  font-medium">
             Xcel Pad Incubator Fund
@@ -32,7 +32,7 @@ const Incubator = () => {
       </div>
       <div className="relative  order-first  ">
         <Image className="block  mx-auto" src={img1} alt="tarif" />
-        <div className="pb-8 text-center px-5 h-auto lg:h-[400px] lg:shadow-lg space-y-5">
+        <div className="text-center min-h-[409px] pb-4 px-5 h-auto  shadow_card space-y-5">
           <span className="text-lg text-[#6F6781]">With</span>
           <h2 className="text-4xl text-skin-purple font-IBM  font-medium">
             XL Staking Vaults

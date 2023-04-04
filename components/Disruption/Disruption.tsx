@@ -1,6 +1,6 @@
 import React from 'react';
 
-import img2 from '../../img/img3.svg';
+import img2 from '../../img/hero3.png';
 
 import img1 from '../../img/aiImg1.svg';
 import Image from 'next/image';
@@ -12,7 +12,7 @@ const Disruption = () => {
         <div
           className={`basis-1/2  order-last  md:order-first space-y-3 lg:text-justify`}
         >
-          <div className="lg:pl-10 space-y-5 ">
+          <div className="lg:pl-10 space-y-8 ">
             <h2 className="heading">
               The Xcel Pad Vision of DeFi Powered Innovation
             </h2>
@@ -24,11 +24,11 @@ const Disruption = () => {
               secure and efficient systems.
             </h4>
 
-            <div className="ml-0 lg:ml-[55px] hidden lg:block space-y-4 lg:mt-[1.6rem]">
+            <div className="ml-0 lg:ml-[55px] hidden lg:block space-y-8 lg:mt-[1.6rem]">
               <button className="btn-primary">
                 Join the Xcel Pad Revolution
               </button>
-              <span className="text-small block">
+              <span className="text-small font-normal block">
                 Our goal is to advance decentralized autonomous systems and
                 create a more efficient, secure, and equitable world.
               </span>
@@ -64,7 +64,7 @@ const Disruption = () => {
       </button>
 
       <div className="flex p-5 card_shadow_md flex-col md:flex-row items-center ">
-        <div className="basis-1/2 order-last  relative">
+        <div className="basis-1/2 order-last lg:order-first  relative">
           <div>
             <Image src={img2} className=" " alt="logo" />
           </div>
@@ -78,12 +78,14 @@ const Disruption = () => {
         </div>
         <div className={`basis-1/2 space-y-3 lg:text-justify`}>
           <div className="lg:pl-10  space-y-5 ">
-            <h2 className="heading">Empowering Innovation</h2>
-            <h4 className="sub-heading ">
+            <h2 className="heading font-medium text-[#44414C]">
+              Empowering Innovation
+            </h2>
+            <h2 className="sub-heading font-medium ">
               Our aim is to provide a launchpad for innovative DeFi-focused
               projects, supporting their development and growth while leveraging
               the potential of both DeFi and innovative tech.
-            </h4>
+            </h2>
 
             <div className="ml-0 hidden lg:block lg:ml-[55px] lg:mt-[1.6rem]">
               <span className="text-small">

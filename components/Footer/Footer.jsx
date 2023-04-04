@@ -15,10 +15,10 @@ const Footer = () => {
             <Image src="/img/Logo.svg" alt="nexus" width={90} height={60} />
           </Link>
         </div>
-        <ul className="flex transition duration-300 ease-in items-center gap-x-10">
+        <ul className="flex transition duration-300 ease-in items-center gap-x-16">
           {navLink.map((link, i) => (
             <li
-              className="text-lg font-PLUS font-normal text-[#6F6781] hover:text-[#7533FF]"
+              className="text-lg hover:underline font-PLUS font-normal text-[#6F6781] hover:text-[#7533FF]"
               key={i}
             >
               <Link href={`#${link.href}`}>{link.label}</Link>
