@@ -14,7 +14,7 @@ const Revulation = () => {
         <h2 className="heading">Join the Xcel Pad revolution</h2>
         <div className=" flex flex-col space-y-5 ">
           <p className="text-md  font-light text-[#6F6781]">
-            and be a part of the future of DeFi innovation. Together, we can
+            and be a part of the future of Web3 innovation. Together, we can
             shape the decentralized landscape and create a more efficient,
             secure, and equitable world.
           </p>

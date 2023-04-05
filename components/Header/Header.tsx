@@ -6,7 +6,7 @@ import { navLink } from '@/constant';
 const Header = () => {
   return (
     <header className="   fixed top-0  bg-[#F2F5F5] hidden lg:block z-[99999] w-full">
-      <div className="flex justify-between   py-7  container px-6 mx-auto ">
+      <div className="flex justify-between   py-5  container px-6 mx-auto ">
         <div className="logo">
           <Link href="/">
             <Image src={Logo} alt="nexus" />

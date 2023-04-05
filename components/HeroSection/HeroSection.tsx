@@ -14,17 +14,17 @@ const HeroSection = () => {
         </div>
         <div className="text-center space-y-6 lg:text-justify">
           <h2 className="heading">
-            The launchpad for the future of innovative DeFi crypto projects
+            The launchpad for the future of innovative Web3 crypto projects
           </h2>
           <div className="lg:pl-10 flex flex-col space-y-6 ">
             <p className="text-md font-medium lg:text-base   text-[#6F6781]">
-              Invest in innovation today and shape the future of DeFi with our
+              Invest in innovation today and shape the future of Web3 with our
               expert-driven ecosystem, providing opportunities and resources for
               success.
             </p>
             <div>
               <button className="border-2 transform translate-1s  hover:bg-skin-pink hover:text-white lg:w-auto transition duration-500 w-full ease-in border-skin-pink bg-white font-IBM font-medium px-4 py-2 min-h-[54px] text-skin-pink">
-                Invest Now in the Future of DeFi
+                Invest Now in the Future of Web3
               </button>
             </div>
           </div>

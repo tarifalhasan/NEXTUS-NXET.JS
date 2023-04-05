@@ -9,7 +9,7 @@ const Staking = () => {
           Empower Your Project <br className="hidden lg:block" /> with Xcel Pad
         </h2>
         <p className="sub-heading lg:w-[66%] mx-auto text-center ">
-          Invest in innovation today and shape the future of DeFi with our
+          Invest in innovation today and shape the future of Web3 with our
           expert-driven ecosystem, providing opportunities and resources for
           success.
         </p>

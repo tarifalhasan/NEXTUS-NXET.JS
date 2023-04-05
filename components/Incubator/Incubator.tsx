@@ -16,13 +16,13 @@ const Incubator = () => {
             Xcel Pad Incubator Fund
           </h2>
           <p className="text-xl text-[#44414C] font-PLUS font-medium ">
-            A portion of platform fees supports new projects in the DeFi space,
+            A portion of platform fees supports new projects in the Web3 space,
             providing crucial resources including financial support, technical
             expertise, and community engagement.
           </p>
           <p className="text-[#6F6781] text-base mx-8">
             Join the XL community and be a part of the next wave of
-            decentralized innovation. Invest in the future with Xcel Pad DeFi
+            decentralized innovation. Invest in the future with Xcel Pad Web3
             Incubator Fund
           </p>
           <button className="btn-primary">

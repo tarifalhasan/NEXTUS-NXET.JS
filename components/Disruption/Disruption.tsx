@@ -14,10 +14,10 @@ const Disruption = () => {
         >
           <div className="lg:pl-10 space-y-8 ">
             <h2 className="heading">
-              The Xcel Pad Vision of DeFi Powered Innovation
+              The Xcel Pad Vision of Web3 Powered Innovation
             </h2>
             <h4 className="sub-heading ">
-              At Xcel Pad, we believe that DeFi and innovation merge to present
+              At Xcel Pad, we believe that Web3 and innovation merge to present
               immense potential to disrupt various industries. We are dedicated
               to supporting innovative projects that explore the benefits of
               blockchain&apos;s decentralization and advanced capabilities for
@@ -82,9 +82,9 @@ const Disruption = () => {
               Empowering Innovation
             </h2>
             <h2 className="sub-heading font-medium ">
-              Our aim is to provide a launchpad for innovative DeFi-focused
+              Our aim is to provide a launchpad for innovative Web3-focused
               projects, supporting their development and growth while leveraging
-              the potential of both DeFi and innovative tech.
+              the potential of both Web3 and innovative tech.
             </h2>
 
             <div className="ml-0 hidden lg:block lg:ml-[55px] lg:mt-[1.6rem]">

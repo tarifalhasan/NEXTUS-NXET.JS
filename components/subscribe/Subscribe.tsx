@@ -16,7 +16,7 @@ const Subscribe = () => {
             <p className="lg:text-2xl text-base  font-normal font-IBM w-full md:w-[50%] mx-auto text-[#F2F5F5] text-center">
               Keep up-to-date with the latest news, developments, and
               opportunities at Xcel Pad. Join our vibrant community and connect
-              with like-minded individuals who share your passion for DeFi
+              with like-minded individuals who share your passion for Web3
               innovation.
             </p>
             <form className="flex flex-col lg:flex-row gap-y-2 justify-center">
