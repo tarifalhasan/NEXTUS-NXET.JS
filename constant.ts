@@ -1,24 +1,24 @@
 import { Navlink, Staking, Incubator, Disruption } from './types';
 export const navLink: Navlink[] = [
   {
-    label: 'Innovate',
-    href: 'innovate',
+    label: 'Vision',
+    href: 'vision',
+  },
+  {
+    label: 'Innovation ',
+    href: 'innovation ',
+  },
+  {
+    label: 'Interoperability',
+    href: 'interoperability',
+  },
+  {
+    label: 'Infrastructure',
+    href: 'Infrastructure',
   },
   {
     label: 'Disruption',
     href: 'disruption',
-  },
-  {
-    label: 'Launchpad',
-    href: 'launchpad',
-  },
-  {
-    label: 'Staking',
-    href: 'staking',
-  },
-  {
-    label: 'Incubator',
-    href: 'incubator',
   },
 ];
 

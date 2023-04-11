@@ -19,7 +19,7 @@ const Contact = () => {
             <div>
               <a
                 className=" flex justify-center items-center"
-                href="http://"
+                href="https://t.me/XcelPadCommunity"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -35,7 +35,7 @@ const Contact = () => {
             <div>
               <a
                 className=" flex justify-center items-center"
-                href="http://"
+                href="https://twitter.com/XcelPad"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -50,7 +50,7 @@ const Contact = () => {
             <div>
               <a
                 className=" flex justify-center items-center"
-                href="http://"
+                href="https://discord.gg/mFRQ3UuVm2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,7 +65,7 @@ const Contact = () => {
             <div>
               <a
                 className=" flex justify-center items-center"
-                href="http://"
+                href="https://medium.com/@XcelPad"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -81,7 +81,7 @@ const Contact = () => {
             <div>
               <a
                 className=" flex justify-center items-center"
-                href="http://"
+                href="https://docs.xcelpad.com//"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -109,9 +109,16 @@ const Contact = () => {
             Contact us through our support channels, and we&apos;ll get back to
             you as soon as possible.
           </p>
-          <button className="py-2  font-medium px-7 btn-primary ">
-            Contact Us
-          </button>
+          <a
+            href="https://t.me/XcelPadCommunity"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <span className="py-2  font-medium px-7 btn-primary ">
+              Contact Us
+            </span>
+          </a>
         </div>
       </div>
     </section>

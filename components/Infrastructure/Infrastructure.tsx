@@ -1,9 +1,9 @@
 import React from 'react';
 import { StakingData } from '@/constant';
 import Image from 'next/image';
-const Staking = () => {
+const Infrastructure = () => {
   return (
-    <div id="staking">
+    <div id="Infrastructure">
       <div className="lg:max-w-[60%] space-y-4 mx-auto px-5 py-10 md:text-center">
         <h2 className="heading text-center ">
           Empower Your Project <br className="hidden lg:block" /> with Xcel Pad
@@ -38,4 +38,4 @@ const Staking = () => {
   );
 };
 
-export default Staking;
+export default Infrastructure;

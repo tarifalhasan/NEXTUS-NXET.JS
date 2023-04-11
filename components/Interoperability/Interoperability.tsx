@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
 import bg from '../../img/launchpad.png';
-const Launchpad = () => {
+const Interoperability = () => {
   return (
-    <div id="launchpad">
+    <div id="interoperability">
       <div className="container px-5 md:px-16 lg:px-20">
         <h2 className="text-large pt-6">
           Xcel Pad Multichain: Unlocking Interoperability
@@ -34,9 +34,16 @@ const Launchpad = () => {
               and most innovative technologies.
             </p>
             <div className="text-left md:text-center lg:text-left  ">
-              <button className="btn-secondary w-full lg:w-auto">
-                Experience Seamless Interoperability
-              </button>
+              <a
+                href="https://t.me/XcelPadCommunity"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <button className="btn-secondary w-full lg:w-auto">
+                  Experience Seamless Interoperability
+                </button>
+              </a>
               <span className="text-small mt-5">
                 Join us in our pursuit of advancing the decentralized space.
               </span>
@@ -51,4 +58,4 @@ const Launchpad = () => {
   );
 };
 
-export default Launchpad;
+export default Interoperability;

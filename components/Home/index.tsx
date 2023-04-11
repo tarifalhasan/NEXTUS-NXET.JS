@@ -1,24 +1,31 @@
 import Contact from '../Contact';
-import Disruption from '../Disruption/Disruption';
+
 import Header from '../Header/Header';
 import HeroSection from '../HeroSection/HeroSection';
-import Incubator from '../Incubator/Incubator';
+import Incubator from '../Disruption/Disruption';
+import Innovation from '../Innovation/Innovation';
 import JoinUs from '../JoinUs/JoinUs';
-import Launchpad from '../Launchpad/Launchpad';
+import Launchpad from '../Interoperability/Interoperability';
 import Revulation from '../Revulation';
 
-import Staking from '../Staking/Staking';
+import Staking from '../Infrastructure/Infrastructure';
+import Vision from '../Vision/Vision';
 import Subscribe from '../subscribe/Subscribe';
+import Interoperability from '../Interoperability/Interoperability';
+import Infrastructure from '../Infrastructure/Infrastructure';
+import Disruption from '../Disruption/Disruption';
 
 const HomePage = () => {
   return (
     <>
       <HeroSection />
-      <Disruption />
-      <Launchpad />
-      <Staking />
+      <Vision />
+      <Innovation />
+      <Interoperability />
+      <Infrastructure />
+
       <JoinUs />
-      <Incubator />
+      <Disruption />
       <Subscribe />
       <Contact />
       <Revulation />

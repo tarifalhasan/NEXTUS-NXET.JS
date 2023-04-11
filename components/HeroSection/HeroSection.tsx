@@ -23,9 +23,16 @@ const HeroSection = () => {
               success.
             </p>
             <div>
-              <button className="border-2 transform translate-1s  hover:bg-skin-pink hover:text-white lg:w-auto transition duration-500 w-full ease-in border-skin-pink bg-white font-IBM font-medium px-4 py-2 min-h-[54px] text-skin-pink">
-                Invest Now in the Future of Web3
-              </button>
+              <a
+                href="https://t.me/XcelPadCommunity"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <button className="border-2 transform translate-1s  hover:bg-skin-pink hover:text-white lg:w-auto transition duration-500 w-full ease-in border-skin-pink bg-white font-IBM font-medium px-4 py-2 min-h-[54px] text-skin-pink">
+                  Invest Now in the Future of Web3
+                </button>
+              </a>
             </div>
           </div>
         </div>
