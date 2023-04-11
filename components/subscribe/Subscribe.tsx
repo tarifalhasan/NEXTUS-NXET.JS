@@ -3,6 +3,8 @@ import Image from 'next/image';
 import gradient from '../../img/Gradient 3.png';
 import gradientMobile from '../../img/Gradient 3 (3).png';
 import gradient2 from '../../img/Gradient 3 (1).png';
+import { useForm } from 'react-hook-form';
+
 const Subscribe = () => {
   return (
     <div
