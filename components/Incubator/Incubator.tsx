@@ -6,7 +6,7 @@ const Incubator = () => {
   return (
     <section
       id="incubator"
-      className="grid   container gap-28 lg:gap-12 grid-cols-1 lg:grid-cols-2"
+      className="grid pt-3  container gap-28 lg:gap-12 grid-cols-1 lg:grid-cols-2"
     >
       <div className="relative  ">
         <Image className="block   mx-auto" src={img2} alt="tarif" />

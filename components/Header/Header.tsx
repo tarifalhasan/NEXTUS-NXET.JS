@@ -1,11 +1,32 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import { useState, useEffect } from 'react';
 import Logo from '../../public/img/Logo.svg';
 import { navLink } from '@/constant';
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.pageYOffset > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <header className="   fixed top-0  bg-[#F2F5F5] hidden lg:block z-[99999] w-full">
+    <header
+      className={`fixed top-0 w-full  z-[999999] transition-colors duration-300 ${
+        isScrolled ? 'bg-[#F2F5F5]' : 'bg-transparent'
+      }`}
+    >
       <div className="flex justify-between   py-5  container px-6 mx-auto ">
         <div className="logo">
           <Link href="/">
