@@ -23,7 +23,7 @@ const Header = () => {
   }, []);
   return (
     <header
-      className={`fixed top-0 w-full  z-[999999] transition-colors duration-300 ${
+      className={`fixed top-0 w-full hidden lg:block  z-[999999] transition-colors duration-300 ${
         isScrolled ? 'bg-[#F2F5F5]' : 'bg-transparent'
       }`}
     >
