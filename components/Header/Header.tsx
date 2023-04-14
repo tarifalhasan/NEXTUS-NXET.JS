@@ -45,11 +45,11 @@ const Header = () => {
             ))}
           </ul>
         </nav>
-        <div>
+        <a href="https://t.me/XcelPadCommunity" target="_blank">
           <button className="bg-skin-purple font-IBM font-medium px-4 py-2 text-white">
             Join the revolution
           </button>
-        </div>
+        </a>
       </div>
     </header>
   );

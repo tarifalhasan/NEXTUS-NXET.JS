@@ -5,7 +5,7 @@ import { SiMedium, SiGitbook } from 'react-icons/si';
 const Contact = () => {
   return (
     <section className="container gap-5 grid grid-cols-1 lg:grid-cols-2">
-      <div className="card_3">
+      <div className="card_3  grid place-items-center  h-[490px]  md:h-[460px]">
         <div className="text-center p-3 lg:p-24 space-y-5">
           <h2 className="text-2xl lg:text-3xl text-skin-purple font-IBM font-medium">
             Follow us on social media
@@ -96,7 +96,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="card_3">
+      <div className="card_3  grid place-items-center h-[422px] md:h-[460px]">
         <div className="text-center p-5 lg:p-24 space-y-4">
           <h2 className="text-3xl text-skin-purple font-IBM font-medium">
             Get in Touch with Xcel Pad
@@ -115,9 +115,9 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="block"
           >
-            <span className="py-2  font-medium px-7 btn-primary ">
+            <div className="py-3  h-[54px] w-full text-base font-IBM text-white mx-auto hover:bg-white hover:text-[#EF4AF0] md:w-[146px] hover:border hover:border-[#EF4AF0]  bg-[#EF4AF0] font-medium px-7  ">
               Contact Us
-            </span>
+            </div>
           </a>
         </div>
       </div>

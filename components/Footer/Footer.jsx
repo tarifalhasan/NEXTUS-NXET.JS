@@ -25,26 +25,31 @@ const Footer = () => {
             </li>
           ))}
         </ul>
-        <ul className="icons flex gap-6 items-center">
+        <ul className="icons flex gap-7 items-center">
           <li className=" transition duration-300 ease-in text-[#B1A8C6] hover:text-skin-purple">
-            <Link href={'/'}>
-              <ImTelegram size={20} />
-            </Link>
+            <a target="_blank" href={'https://t.me/XcelPadCommunity'}>
+              <ImTelegram size={22} />
+            </a>
           </li>
           <li className=" transition duration-300 ease-in text-[#B1A8C6] hover:text-skin-purple">
-            <Link href={'/'}>
+            <a target="_blank" href={'https://discord.com/invite/mFRQ3UuVm2'}>
+              <BsDiscord size={24} />
+            </a>
+          </li>
+          <li className=" transition duration-300 ease-in text-[#B1A8C6] hover:text-skin-purple">
+            <a target="_blank" href={'https://twitter.com/XcelPad'}>
               <ImTwitter size={24} />
-            </Link>
+            </a>
           </li>
           <li className="transition duration-300 ease-in text-[#B1A8C6] hover:text-skin-purple ">
-            <Link href={'/'}>
+            <a target="_blank" href={'https://medium.com/@XcelPad'}>
               <SiMedium size={26} />
-            </Link>
+            </a>
           </li>
           <li className=" transition duration-300 ease-in text-[#B1A8C6] hover:text-skin-purple">
-            <Link href={'/'}>
+            <a target="_blank" href={'https://docs.xcelpad.com/'}>
               <SiGitbook size={26} />
-            </Link>
+            </a>
           </li>
         </ul>
       </footer>

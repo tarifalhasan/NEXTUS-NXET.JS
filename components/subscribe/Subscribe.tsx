@@ -1,11 +1,40 @@
-import React from 'react';
+import React, { FormEvent, useState } from 'react';
+
 import Image from 'next/image';
 import gradient from '../../img/Gradient 3.png';
 import gradientMobile from '../../img/Gradient 3 (3).png';
 import gradient2 from '../../img/Gradient 3 (1).png';
-import { useForm } from 'react-hook-form';
 
 const Subscribe = () => {
+  const [submitted, setSubmitted] = useState(false);
+  const [message, setMessage] = useState(false);
+  const [Email, setEmail] = useState('');
+  function Submit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const formEle = document.querySelector('form') as HTMLFormElement;
+    const formDatab = new FormData(formEle);
+
+    fetch(
+      'https://script.google.com/macros/s/AKfycby61Pk1qxTGfjcmPLwWePxosm5zpAX8bjhpoxV__5lisTl_YZ8kArJ56moVDg4oyqCtFQ/exec',
+      {
+        method: 'POST',
+        body: formDatab,
+      }
+    )
+      .then(res => res.json())
+      .then(data => {
+        // setSubmitted(true);
+        console.log('Form submitted successfully!', data);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+    setSubmitted(true);
+    setTimeout(() => {
+      setSubmitted(false);
+    }, 3000); // 3 seconds
+  }
+
   return (
     <div
       id="join_us"
@@ -21,17 +50,28 @@ const Subscribe = () => {
               with like-minded individuals who share your passion for Web3
               innovation.
             </p>
-            <form className="flex flex-col lg:flex-row gap-y-2 justify-center">
+            <form
+              onSubmit={e => Submit(e)}
+              className="flex flex-col lg:flex-row gap-y-2 justify-center"
+            >
               <input
                 type="email"
-                placeholder="enter your email"
+                placeholder="Enter your email "
                 required
+                onChange={e => setEmail(e.target.value)}
+                name="Email"
                 className="text-slate-800 py-2 w-full lg:w-[320px] px-6 text-lg focus:outline-none "
               />
               <button type="submit" className="btn-secondary">
                 Subscribe
               </button>
             </form>
+
+            {submitted && (
+              <p className="text-green-600 text-base font-PLUS">
+                Email submitted successfully!
+              </p>
+            )}
           </div>
         </div>
         <div className="absolute top-[10%] lg:top-1/2 -z-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full lg:w-auto  ">

@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { ArrowDown } from '../Icon';
 const Vision = () => {
   return (
-    <div className="container  py-10" id="vision">
+    <div className="container  md:py-10" id="vision">
       <div className="flex p-5 card_shadow_sm flex-col gap-7 md:flex-row items-center ">
         <div
           className={`basis-1/2  order-last  md:order-first space-y-3 lg:text-justify`}
