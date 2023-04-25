@@ -32,7 +32,7 @@ const Footer = () => {
             </a>
           </li>
           <li className=" transition duration-300 ease-in text-[#B1A8C6] hover:text-skin-purple">
-            <a target="_blank" href={'https://discord.com/invite/mFRQ3UuVm2'}>
+            <a target="_blank" href={'https://discord.com/invite/EqYPBZBaRJ'}>
               <BsDiscord size={24} />
             </a>
           </li>
@@ -44,11 +44,6 @@ const Footer = () => {
           <li className="transition duration-300 ease-in text-[#B1A8C6] hover:text-skin-purple ">
             <a target="_blank" href={'https://medium.com/@XcelPad'}>
               <SiMedium size={26} />
-            </a>
-          </li>
-          <li className=" transition duration-300 ease-in text-[#B1A8C6] hover:text-skin-purple">
-            <a target="_blank" href={'https://docs.xcelpad.com/'}>
-              <SiGitbook size={26} />
             </a>
           </li>
         </ul>

@@ -15,7 +15,7 @@ const Contact = () => {
             XL 3 and exclusive events. Engage with the Xcel Pad community and be
             a part of the conversation.
           </p>
-          <div className="flex mt-3 items-center flex-wrap lg:flex-nowrap	 justify-center gap-6">
+          <div className=" grid grid-cols-2 md:grid-cols-4 place-items-center  space-y-5 mt-3 ">
             <div>
               <a
                 className=" flex justify-center items-center"
@@ -50,7 +50,7 @@ const Contact = () => {
             <div>
               <a
                 className=" flex justify-center items-center"
-                href="https://discord.gg/mFRQ3UuVm2"
+                href="https://discord.com/invite/EqYPBZBaRJ"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -75,22 +75,6 @@ const Contact = () => {
               </a>
               <p className="text-base text-center pt-2 font-normal text-[#6F6781]">
                 Medium
-              </p>
-            </div>
-
-            <div>
-              <a
-                className=" flex justify-center items-center"
-                href="https://docs.xcelpad.com//"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="social_link text-[#667AFF] flex justify-center items-center">
-                  <SiGitbook size={32} />
-                </div>
-              </a>
-              <p className="text-base text-center pt-2 font-normal text-[#6F6781]">
-                GitBook
               </p>
             </div>
           </div>
